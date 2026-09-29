@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Konfirmasi Email - NgeKost</title>
+</head>
+
+<body
+  style="
+    margin:0;
+    padding:0;
+    background:#f4f8f5;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#17211b;
+  "
+>
+  <table
+    width="100%"
+    cellpadding="0"
+    cellspacing="0"
+    border="0"
+    style="background:#f4f8f5; padding:40px 15px;"
+  >
+    <tr>
+      <td align="center">
+
+        <!-- Main Container -->
+        <table
+          width="100%"
+          cellpadding="0"
+          cellspacing="0"
+          border="0"
+          style="
+            max-width:620px;
+            background:#ffffff;
+            border-radius:24px;
+            overflow:hidden;
+            box-shadow:0 12px 40px rgba(23,107,69,0.10);
+          "
+        >
+
+          <!-- Header -->
+          <tr>
+            <td
+              align="center"
+              style="
+                padding:42px 30px 30px;
+                background:#ffffff;
+              "
+            >
+
+              <!-- Logo -->
+              <img
+                src="logo.webp"
+                alt="NgeKost"
+                width="150"
+                style="
+                  display:block;
+                  max-width:150px;
+                  height:auto;
+                  margin:0 auto;
+                  border:0;
+                "
+              />
+
+              <div
+                style="
+                  margin-top:22px;
+                  height:4px;
+                  width:55px;
+                  border-radius:10px;
+                  background:#176b45;
+                "
+              ></div>
+
+            </td>
+          </tr>
+
+          <!-- Content -->
+          <tr>
+            <td style="padding:10px 42px 42px;">
+
+              <h1
+                style="
+                  margin:0;
+                  text-align:center;
+                  font-size:28px;
+                  line-height:1.3;
+                  font-weight:800;
+                  color:#17211b;
+                "
+              >
+                Konfirmasi Email Kamu
+              </h1>
+
+              <p
+                style="
+                  margin:18px 0 0;
+                  text-align:center;
+                  font-size:15px;
+                  line-height:1.8;
+                  color:#66736b;
+                "
+              >
+                Terima kasih telah mendaftar di
+                <strong style="color:#176b45;">NgeKost</strong>.
+                Selangkah lagi akun kamu siap digunakan.
+              </p>
+
+              <!-- Greeting -->
+              <div
+                style="
+                  margin-top:30px;
+                  padding:22px;
+                  background:#f7faf8;
+                  border:1px solid #e4eee8;
+                  border-radius:16px;
+                "
+              >
+                <p
+                  style="
+                    margin:0;
+                    font-size:14px;
+                    line-height:1.8;
+                    color:#4e5b53;
+                  "
+                >
+                  Halo,
+                </p>
+
+                <p
+                  style="
+                    margin:8px 0 0;
+                    font-size:14px;
+                    line-height:1.8;
+                    color:#4e5b53;
+                  "
+                >
+                  Silakan konfirmasi alamat email kamu dengan menekan
+                  tombol di bawah. Konfirmasi ini diperlukan agar kamu
+                  dapat menggunakan akun NgeKost dengan aman.
+                </p>
+              </div>
+
+              <!-- Button -->
+              <table
+                width="100%"
+                cellpadding="0"
+                cellspacing="0"
+                border="0"
+                style="margin-top:30px;"
+              >
+                <tr>
+                  <td align="center">
+
+                    <a
+                      href="{{ .ConfirmationURL }}"
+                      style="
+                        display:inline-block;
+                        padding:16px 34px;
+                        background:#176b45;
+                        color:#ffffff;
+                        text-decoration:none;
+                        border-radius:12px;
+                        font-size:15px;
+                        font-weight:700;
+                        line-height:1.2;
+                      "
+                    >
+                      Konfirmasi Email Saya
+                    </a>
+
+                  </td>
+                </tr>
+              </table>
+
+              <!-- Security Notice -->
+              <div
+                style="
+                  margin-top:32px;
+                  padding:20px;
+                  border-radius:16px;
+                  background:#fffaf0;
+                  border:1px solid #f2e5bd;
+                "
+              >
+
+                <p
+                  style="
+                    margin:0;
+                    font-size:13px;
+                    font-weight:700;
+                    color:#6d5721;
+                  "
+                >
+                  🔐 Keamanan akun
+                </p>
+
+                <p
+                  style="
+                    margin:8px 0 0;
+                    font-size:12px;
+                    line-height:1.7;
+                    color:#756942;
+                  "
+                >
+                  Jika kamu tidak merasa membuat akun NgeKost,
+                  abaikan email ini. Jangan berikan tautan konfirmasi
+                  kepada orang lain.
+                </p>
+
+              </div>
+
+              <!-- Alternative Link -->
+              <p
+                style="
+                  margin:28px 0 0;
+                  text-align:center;
+                  font-size:12px;
+                  line-height:1.7;
+                  color:#8a948e;
+                "
+              >
+                Jika tombol di atas tidak dapat digunakan, kamu dapat
+                membuka tautan konfirmasi yang dikirim bersama email ini.
+              </p>
+
+              <!-- Divider -->
+              <div
+                style="
+                  height:1px;
+                  background:#e9eee9;
+                  margin:32px 0;
+                "
+              ></div>
+
+              <!-- About NgeKost -->
+              <div style="text-align:center;">
+
+                <p
+                  style="
+                    margin:0;
+                    font-size:18px;
+                    font-weight:800;
+                    color:#176b45;
+                  "
+                >
+                  NgeKost
+                </p>
+
+                <p
+                  style="
+                    margin:8px 0 0;
+                    font-size:13px;
+                    line-height:1.7;
+                    color:#77817b;
+                  "
+                >
+                  Platform untuk mencari, menemukan, dan mengelola
+                  tempat kost dengan lebih mudah.
+                </p>
+
+              </div>
+
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td
+              style="
+                padding:28px 30px;
+                background:#f7faf8;
+                border-top:1px solid #e7eee9;
+              "
+            >
+
+              <p
+                style="
+                  margin:0;
+                  text-align:center;
+                  font-size:12px;
+                  line-height:1.7;
+                  color:#7b857f;
+                "
+              >
+                Butuh bantuan?
+              </p>
+
+              <p
+                style="
+                  margin:5px 0 0;
+                  text-align:center;
+                  font-size:13px;
+                  font-weight:700;
+                  color:#176b45;
+                "
+              >
+                [NOMOR TELEPON KAMU]
+              </p>
+
+              <p
+                style="
+                  margin:18px 0 0;
+                  text-align:center;
+                  font-size:11px;
+                  line-height:1.7;
+                  color:#9aa39d;
+                "
+              >
+                © JAWEBAJA NgeKost
+              </p>
+
+              <p
+                style="
+                  margin:4px 0 0;
+                  text-align:center;
+                  font-size:11px;
+                  color:#a1aaa5;
+                "
+              >
+                Email ini dikirim secara otomatis oleh sistem NgeKost.
+              </p>
+
+            </td>
+          </tr>
+
+        </table>
+
+        <!-- Bottom Text -->
+        <p
+          style="
+            max-width:580px;
+            margin:20px auto 0;
+            text-align:center;
+            font-size:11px;
+            line-height:1.6;
+            color:#9aa39d;
+          "
+        >
+          Harap tidak membalas email ini karena alamat ini digunakan
+          khusus untuk pengiriman otomatis.
+        </p>
+
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
+
